@@ -2,9 +2,9 @@
 
 MapReduce relies on `<key, value>` pairs when mapping. Every move from previous key to the new key is considered a single unique instance of an updated value from its previous state to a new state, reliance will be on the cumulative value.
 
-    ```java
-    inputFile -> map()<k_origin, v_origin> -> combine()<k_next, value_next> -> reduce()<k_final, v_final> -> outputFile
-    ```
+```javascript
+inputFile -> map()<k_origin, v_origin> -> combine()<k_next, value_next> -> reduce()<k_final, v_final> -> outputFile
+```
 
 > Unzip purchases.txt and use it as an input file for the mapper.
 
