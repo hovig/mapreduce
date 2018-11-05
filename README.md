@@ -30,10 +30,10 @@ cat purchases.txt | python mapper.py | sort -o mapper_output.txt mapper_output.t
 
 With the same efficiency, mapping/sorting/reducing taking place when running `python mapper.py` and `python reducer.py` with the difference of instead of relying on the key to retrieve the final, the scripts will store the results separately and take actions on them.
 
-Check out the output results:
+Check out the output results of this sample example that finds the total sales values of the toys and consumer electronics:
 
 `Toys Total = 57463477.11`<br>
-`Consumer Electronics = 57452374.13`
+`Consumer Electronics Total = 57452374.13`
 
 <hr>
 
